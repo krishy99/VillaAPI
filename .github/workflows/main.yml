@@ -10,4 +10,4 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: second-job
-        run: "first Job are Successful this is my end"
+        run: "echo first Job are Successful this is my end"
