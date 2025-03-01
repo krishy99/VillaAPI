@@ -6,3 +6,8 @@ jobs:
     steps: 
       - name: print-hello
         run: "echo Hello Krishna"
+  second-job:
+    runs-on: windows-latest
+    steps:
+      - name: second-job
+        run: "First Job are Successful this is my end"
